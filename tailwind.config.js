@@ -6,7 +6,11 @@ module.exports = {
   // NOTE: You can also use the `content` option to specify the paths to your component files.
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        
+      }
+    },
   },
   plugins: [],
 }
